@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero__section{
+  /* background: red;
+  height: 100vh;
+  width: 100%; */
+  background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  background-position: center;
+  background-size: cover;
+  color:white;
+  min-height: 60vh;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 16px 48px;
+  height: 60px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: large;
+}
+
+.navbar__menu_container{
+  display: flex;
+  gap: 20px;
+  font-weight: 250;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar__menu_container .link{
+    display: none;
+  }
+
+
+.navbar{
+  padding: 16px;
+}
+
+.hero__section{
+  min-height: 80vh;
+}
+
+.user__icon{
+  display: flex;
+}
+}
